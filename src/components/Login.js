@@ -9,7 +9,7 @@ const Login = ({ onLogin }) => {
   const handleLogin = (e) => {
     e.preventDefault();
     if (username === 'user' && password === 'password') {
-      alert('Login successful!');
+      // alert('Login successful!');
       onLogin();
     } else {
       setError('Invalid username or password');
